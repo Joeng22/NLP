@@ -1,5 +1,5 @@
 '''
-Chatbot tutorial using Langchain and Open model from Huggingface
+Simple Chatbot tutorial using Langchain and Open model from Huggingface 
 '''
 
 from langchain.chains import ConversationChain

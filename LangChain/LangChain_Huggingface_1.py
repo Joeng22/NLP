@@ -1,5 +1,5 @@
 '''
-Using Langchain and Hugging 
+LLM sample use case using Langchain and Hugging 
 '''
 
 from langchain.llms import HuggingFaceHub
@@ -21,6 +21,8 @@ model = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-alpha",
 
 
 
-prompt = model("Tell me a joke")
+HF_token = getpass()
+
+prompt = model("where is Taj Mahal")
     
 print(prompt)

@@ -9,7 +9,14 @@ import os
 from getpass import getpass
 
 import streamlit as st
+'''
+Streamlit is a fantastic open-source Python framework that allows data scientists and AI/ML engineers to create interactive data apps with just a few lines of code. 
+Here are some key points about Streamlit:
 
+Rapid Development: Streamlit turns your data scripts into shareable web apps in minutes. You don’t need any front-end experience – it’s all done in pure Python.
+Simple API: Build apps using a magically simple API. You can create widgets, charts, and interactive elements with ease. For example:
+
+'''
 input_token = st.text_input('Enter Your Hugging Face Token: ') 
 
 if (input_token):
